@@ -1,13 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+:root {
+    --color-red: rgb(151, 15, 15);
+}
+
 body{
-    width: auto;
+
+    font-size: 32px;
+    font-family: "Dancing Script", cursive;
+    height: 300px;
     text-align: center;
-    display: flex;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
+
+    
 }
 h1{
-    color: rrgb(151, 15, 15)
+    
+    color: var(--color-red);
+    font-size: 100px;
+}
+.txt{
+    margin-top: 200px;
+}
+img{
+    width: 150px;
+    height:150px;
+    display: flex;
+    
 }
