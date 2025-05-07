@@ -1,28 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+/*Arquivo CSS da aula de Desenvolvimento para Internet - Unipar 2025 */
+
+/* Reset Css: importante para zerar todos os estilos já aplicados*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;    
+
+}
+
+/* Variavéis */
+/* Posso salvar nas variaveís, configurações que podem ser usadas globalmente no CSS */
+/* Variavel sem começa com : antes do nome */
+
 :root {
-    --color-red: rgb(151, 15, 15);
+    --primary-color: purple;
+    --font-size: 12px;
+
+}
+/* Componentes */ 
+/* O que são componentes: Botões, Formulários, imput's, select's, etc */
+button {
+    background-color: var(--primary-color); /* usando variaveis*/
+    font-size: var(--font-size);
+    color: azure;
+    padding: 2%;
+    height: 10%;
+    width: 50%;
+    min-height: 100px;
+    max-height: 500px;
 }
 
-body{
 
-    font-size: 32px;
-    font-family: "Dancing Script", cursive;
-    height: 300px;
-    text-align: center;
 
-    
-}
-h1{
-    
-    color: var(--color-red);
-    font-size: 100px;
-}
-.txt{
-    margin-top: 200px;
-}
-img{
-    width: 150px;
-    height:150px;
-    display: flex;
-    
-}
+/* ===== RESET DE ESTILO ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* ===== VARIÁVEIS ===== */
+  :root {
+    --primary-color: #0057ff;
+    --font-size: 16px;
+  }
+  
+  /* ===== COMPONENTES ===== */
+  .button {
+    background: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
